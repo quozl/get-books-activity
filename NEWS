@@ -1,3 +1,21 @@
+16.1
+
+* Fix warnings,
+* Remove OHM,
+* Fix divide by zero during download,
+* Fix exception during search,
+* Use archive.org not www.archive.org (faster search and download),
+* Rewrite to avoid private objects and use arguments,
+* Format log object dumps,
+* Use file downloader for covers, books, and file lists,
+* Avoid downloading all covers on list view clear (faster collection switching),
+* Fix non-unique download files (fix for sometimes wrong cover shown),
+* Show progress bar on cover art download,
+* Fix failing downloads from Internet Archive,
+* Improve download cancel,
+* Destroy download threads on activity stop (otherwise stop is deferred),
+* Move progress bar below Get Book button to avoid frequent book list resize.
+
 5
 
 * Spanish translations (Rafael Ortiz)
